@@ -6,4 +6,8 @@ module.exports = {
   rules: {
     semi: ['error', 'always'],
   },
+  globals: {
+    localStorage: true,
+    fetch: true,
+  },
 };
