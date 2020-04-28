@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://plannoapi.azurewebsites.net/',
+  baseURL: 'uri de sua API',
 });
 
 export default api;
